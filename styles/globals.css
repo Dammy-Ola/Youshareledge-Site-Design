@@ -1,3 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400;500;700;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background: #f2f0f0;
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+.container {
+  @apply w-11/12 md:w-10/12 mx-auto;
+}
+
+.Ysl-Hero {
+  background: #0000 url('../public/images/YSL-Learn-Hero-Bg.png') no-repeat
+    center/cover fixed;
+}
+
+.loadingSpinnerContainer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingSpinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: #000 transparent #555 transparent;
+  border-radius: 50%;
+  animation: spin 1.2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.course-description p {
+  margin: 1.5rem auto;
+}
+
+.course-description img {
+  padding: 1rem 0;
+  margin: 0 auto;
+}
+
+.course-description ul {
+  list-style-type: initial;
+  list-style-position: inside;
+}
+
+.course-description ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+.course-description h2,
+.course-description h3,
+.course-description h4 {
+  font-size: 27px;
+}
+
+.course-description pre {
+  background: #f4f4f4;
+  padding: 20px;
+  margin: 20px 0;
+  line-height: 2.3;
+}
