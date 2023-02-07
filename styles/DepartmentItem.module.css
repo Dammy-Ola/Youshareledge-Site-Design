@@ -1,0 +1,11 @@
+.card {
+  display: flex;
+}
+
+.card > .itemName {
+  flex: 8;
+}
+
+.card > .item {
+  flex: 2;
+}
