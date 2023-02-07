@@ -66,6 +66,12 @@ export default function Navbar() {
                 Youshareledge Learn
               </Link>
               <Link
+                href={`${origin}/wait-list`}
+                className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:bg-secondary hover:text-primary"
+              >
+                Wait List
+              </Link>
+              <Link
                 href={`${origin}/blog`}
                 className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white items-center justify-center hover:bg-secondary hover:text-primary"
               >
