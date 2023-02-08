@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-primary shadow-2xl fixed top-0 z-10 w-full p-3">
+      <nav className="bg-primary shadow-2xl fixed top-0 z-50 w-full p-3">
         <div className="container flex items-center flex-wrap">
           <Link href={`${origin}`} className="flex items-center">
             <Image
