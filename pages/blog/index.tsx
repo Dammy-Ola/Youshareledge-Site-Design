@@ -1,3 +1,4 @@
+import Blogs from '@/components/Blogs'
 import Layout from '@/components/Layout'
 
 export default function Home() {
@@ -140,7 +141,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* {data && <Blogs data={data} />} */}
+        <Blogs />
       </main>
     </Layout>
   )
