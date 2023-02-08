@@ -1,13 +1,13 @@
 import DepartmentItem from '@/components/DepartmentItem'
 import Layout from '@/components/Layout'
-import { Showcase } from '@/components/Showcase'
+import Showcase from '@/components/Showcase'
 import { useRouter } from 'next/router'
 
 export default function SingleSchoolPage() {
   const router = useRouter()
   return (
     <Layout title={`Download and Learn more about courses offered in KNUST`}>
-      <Showcase />
+      <Showcase data="KNUST" />
 
       <section className="container">
         <div className="pt-10">
