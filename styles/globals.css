@@ -14,8 +14,8 @@ body {
 }
 
 .Ysl-Hero {
-  background: #0000 url('../public/images/YSL-Learn-Hero-Bg.png') no-repeat
-    center/cover fixed;
+  background: #0000 url('/images/YSL-Learn-Hero-Bg.png') no-repeat center/cover
+    fixed;
 }
 
 .loadingSpinnerContainer {
